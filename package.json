@@ -1,0 +1,25 @@
+{
+  "name": "anets-doc",
+  "version": "1.1.2",
+  "description": "anets.js 文档",
+  "main": "index.js",
+  "scripts": {
+    "lint": "lint-md ./docs/blog",
+    "lint:fix": "lint-md ./docs --fix",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "commit": "npx git-cz"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
+    }
+  },
+  "repository": "git@github.com:henryfordstick/henryblog.git",
+  "author": "henry",
+  "license": "MIT",
+  "dependencies": {
+    "lint-md-cli": "^0.1.2",
+    "vuepress": "^1.4.0"
+  }
+}

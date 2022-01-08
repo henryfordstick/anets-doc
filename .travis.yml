@@ -1,0 +1,19 @@
+sudo: required
+language: node_js
+node_js:
+  - '10'
+before_install:
+  - npm install
+script:
+  - npm run build
+deploy:
+  provider: pages
+  target_branch: master
+  skip_cleanup: true
+  local_dir: docs/.vuepress/dist
+  repo: henryfordstick/henryfordstick.github.io
+  token: $REPO_TOKEN
+  keep_history: true
+  on:
+    branch: master
+
