@@ -1,0 +1,84 @@
+#ani-content {
+  text-align: center;
+  min-height: 305px;
+  margin: 50px 0;
+}
+#ani-content p {
+  font-size:30px;
+  color: #aaa;
+
+}
+#anets{
+  display: inline-block;
+  width: 700px;
+  height: 226px;
+}
+#anets canvas{
+  width: 100%;
+  height: 100%;
+}
+.btn {
+  display: inline-block;
+  line-height: 1;
+    white-space: nowrap;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid #dcdfe6;
+    color: #606266;
+    -webkit-appearance: none;
+    text-align: center;
+    box-sizing: border-box;
+    outline: none;
+    margin: 3px 0;
+    transition: .1s;
+    font-weight: 500;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    padding: 12px 20px;
+    font-size: 14px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.ani-container{
+  margin: 10px 200px
+}
+
+.tab-content {
+  border-top: 1px solid #f0f0f0;
+  margin-top:10px;
+  padding-top: 10px;
+}
+
+.tab-btn.active {
+  border-color: #409eff;
+  background-color: #409eff;
+  color: #fff;
+}
+
+.tab-btn:not(.active):hover {
+  color: #409eff;
+    border-color: #c6e2ff;
+    background-color: #ecf5ff;
+}
+
+
+.ani-btn{
+  background-color: #67c23a;
+  border-color: #67c23a;
+  color: #fff;
+}
+
+.ani-btn:hover{
+  background: #85ce61;
+  border-color: #85ce61;
+  color: #fff;
+}
+
+.ani-btn:active {
+  background: #5daf34;
+  border-color: #5daf34;
+  color: #fff;
+}
+
