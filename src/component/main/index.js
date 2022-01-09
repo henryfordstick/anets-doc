@@ -2,6 +2,7 @@ import React, { useState, useCallback } from 'react';
 import btnConfig from './config';
 import anets from 'anets/dist/Anets.esm.js';
 import './index.css';
+import pic from '../../assets/pic.png';
 
 const Main = () => {
   const [cur, setCurrent] = useState(0);
@@ -30,7 +31,7 @@ const Main = () => {
     <>
       <div id="ani-content">
         <div id="anets">
-          <img src={require('../../assets/pic.png')} alt="anets" />
+          <img src={pic} alt="anets" />
         </div>
         <p>--基于 canvas 的动画库</p>
       </div>
