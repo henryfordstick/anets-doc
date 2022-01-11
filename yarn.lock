@@ -2183,10 +2183,10 @@ alphanum-sort@^1.0.0:
   resolved "https://registry.yarnpkg.com/alphanum-sort/-/alphanum-sort-1.0.2.tgz#97a1119649b211ad33691d9f9f486a8ec9fbe0a3"
   integrity sha1-l6ERlkmyEa0zaR2fn0hqjsn74KM=
 
-anets@^0.2.2:
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/anets/-/anets-0.2.2.tgz#701dfedf66da435149e0539464a49e2869df962c"
-  integrity sha512-6gAiRf9srBmcmQbyo8h7MI1Pv5QZlR1hW6ZcxBUELLCp4cl27tBV4V/tySHF2YAGWuqLU9NQBk/3whY7Bz4uDw==
+anets@^0.2.5:
+  version "0.2.5"
+  resolved "https://registry.yarnpkg.com/anets/-/anets-0.2.5.tgz#dc5fb5cda71f41d7b5a79a62ad579e5f7a6afdc6"
+  integrity sha512-Q8Ye9ER2hSFlgK3wgJBswgA3DOkopnzdRQFpFIqXphDucAZnOtEePaGcDl2pgk9grGLWGlVFCzwJooucjSZikQ==
   dependencies:
     html2canvas "^1.4.0"
 

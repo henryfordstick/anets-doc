@@ -14,7 +14,7 @@ const Main = () => {
   const clickani = useCallback((item) => {
     anets.start(
       {
-        item: 'anets',
+        item: '#anets',
         ani: {
           cname: item.name,
           name: item.key,
