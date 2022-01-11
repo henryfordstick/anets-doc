@@ -36,15 +36,17 @@ const Main = () => {
         <p>--基于 canvas 的动画库</p>
       </div>
       <div className="ani-container">
-        {btnConfig.map((item, index) => (
-          <button
-            key={index}
-            onClick={clickevent.bind(null, item, index)}
-            className={`btn tab-btn ${index === cur ? 'active' : null} `}
-          >
-            <span>{item.name}</span>
-          </button>
-        ))}
+        <div className="tab-title">
+          {btnConfig.map((item, index) => (
+            <button
+              key={index}
+              onClick={clickevent.bind(null, item, index)}
+              className={`btn tab-btn ${index === cur ? 'active' : null} `}
+            >
+              <span>{item.name}</span>
+            </button>
+          ))}
+        </div>
 
         <Btn
           btn={btnConfig[cur].child}

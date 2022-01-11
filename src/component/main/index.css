@@ -9,7 +9,7 @@
 
 }
 #anets{
-  display: inline-block;
+  margin: 0 auto;
   width: 700px;
   height: 226px;
 }
@@ -42,11 +42,13 @@
 }
 
 .ani-container{
-  margin: 10px 200px
+  margin: 10px auto;
+  max-width: 1360px;
+  min-width: 700px;
 }
 
 .tab-content {
-  border-top: 1px solid #f0f0f0;
+  border-top: 1px solid #eee;
   margin-top:10px;
   padding-top: 10px;
 }
@@ -62,7 +64,6 @@
     border-color: #c6e2ff;
     background-color: #ecf5ff;
 }
-
 
 .ani-btn{
   background-color: #67c23a;
