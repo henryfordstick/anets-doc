@@ -2,7 +2,7 @@ import React, { useState, useCallback } from 'react';
 import btnConfig from './config';
 import anets from 'anets/dist/Anets.esm.js';
 import './index.css';
-import pic from '../../assets/pic.png';
+import pic from '../../assets/pic-f0f0f0.png';
 
 const Main = () => {
   const [cur, setCurrent] = useState(0);
